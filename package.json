@@ -1,6 +1,6 @@
 {
   "name": "graphql-tag-typescript-schema",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GraphQL Code Generator plugin for generating a .ts file from a given schema",
   "repository": "git@github.com:emolr/graphql-tag-typescript-schema.git",
   "license": "MIT",
