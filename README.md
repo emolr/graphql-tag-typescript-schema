@@ -1,8 +1,3 @@
----
-id: graphql-tag-typescript-schema
-title: graphql-tag Typescript Schema
----
-
 # graphql-tag Typescript Schema
 
 `graphql-tag-typescript-schema` plugin prints the merged schema as graphql-tag to be used with eg. Apollo Client. If multiple schemas are provided, they will be merged and printed as one schema.
