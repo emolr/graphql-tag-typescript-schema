@@ -9,7 +9,7 @@ describe('Schema AST', () => {
       const fileName = 'output.graphql';
       const plugins: Types.ConfiguredPlugin[] = [
         {
-          'schema-typescript-ast': {},
+          'graphql-tag-typescript-schema': {},
         },
       ];
 
@@ -19,7 +19,7 @@ describe('Schema AST', () => {
         throw new Error(SHOULD_THROW_ERROR);
       } catch (e) {
         expect(e.message).not.toBe(SHOULD_THROW_ERROR);
-        expect(e.message).toBe('Plugin "schema-typescript-ast" requires extension to be ".ts"!');
+        expect(e.message).toBe('Plugin "graphql-tag-typescript-schema" requires extension to be ".ts"!');
       }
     });
 
@@ -30,7 +30,7 @@ describe('Schema AST', () => {
           add: {},
         },
         {
-          'schema-typescript-ast': {},
+          'graphql-tag-typescript-schema': {},
         },
       ];
 
@@ -45,7 +45,7 @@ describe('Schema AST', () => {
       const fileName = 'output.ts';
       const plugins: Types.ConfiguredPlugin[] = [
         {
-          'schema-typescript-ast': {},
+          'graphql-tag-typescript-schema': {},
         },
       ];
 
